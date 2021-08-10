@@ -1,0 +1,22 @@
+
+$utilities: (
+  "font-family": (
+    property: font-family,
+    responsive: false,
+    class: font,
+    values: (
+        sans:$font-family-sans,
+        roboto:$font-family-Roboto,
+    ),
+  ),
+  "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: (
+        light: $font-weight-light,
+        regular: $font-weight-regular,
+        medium: $font-weight-medium,
+        bold: $font-weight-bold,
+      )
+    ),
+ );
