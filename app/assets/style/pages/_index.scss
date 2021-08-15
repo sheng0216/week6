@@ -1,0 +1,30 @@
+.banner {
+  background-image: url(https://boisonchang.github.io/gh-pages-project2/assets/images/header-banner.jpg);
+  height: 480px;
+  background-position: center center;
+  background-size: cover;
+  &-text {
+    margin-bottom: 80px;
+  }
+  @include media-breakpoint-up(sm) {
+    &-text {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+.live {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/people2.png);
+  background-position: center center;
+  background-size: cover;
+  &-bg {
+    background-color: #190014cc;
+  }
+  &-title::after{
+    content: "";
+    border-right: 1px solid $white;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}

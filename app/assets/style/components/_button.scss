@@ -1,0 +1,4 @@
+.btn-md {
+    @include button-size($btn-padding-y-md, $btn-padding-x-md, $btn-font-size-md, $btn-border-radius-md);
+  }
+  

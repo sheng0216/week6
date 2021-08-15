@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    &-link {
+        display: block;
+        border-bottom: 3px solid transparent;
+        padding: 14px 0;
+        transition: 0.6s;
+        margin: 0 9px;
+        @include media-breakpoint-up(sm){
+            &:hover {
+                border-color: $secondary;
+            }
+        }
+    }
+
+}
+.scroll-x{
+    overflow-x: auto;
+    white-space: nowrap;
+}

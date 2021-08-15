@@ -19,7 +19,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "white":      $white
 ) !default;
 
 
@@ -56,8 +57,10 @@ $font-weight-bold:            700 !default;
 
 
 $font-size-base:              1rem !default;
-$font-size-sm:                $font-size-base * .875 !default;
-
+$font-size-sm:                $font-size-base * .75 !default;
+$font-size-md:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-xl:                $font-size-base * 2.25 !default;
 
 $h1-font-size:                $font-size-base * 2.25 !default;
 $h2-font-size:                $font-size-base * 2 !default;
@@ -74,11 +77,21 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  7: $font-size-sm
 ) ;
 
 
+$headings-margin-bottom:      0 !default;
+$headings-font-family:        null !default;
+$headings-font-style:         null !default;
+$headings-font-weight:        500 !default;
+$headings-line-height:        1.5 !default;
+$headings-color:              null !default;
 
+//取消rfs
+$enable-rfs:                  false !default;
+
+//格線系統
+$grid-gutter-width:           1.875rem !default;
 
 $body-bg:                   $white !default;
 $body-color:                $info !default;
@@ -88,3 +101,44 @@ $link-decoration:           none !default;
 $headings-margin-bottom:      0 !default;
 
 
+
+$border-radius:               .25rem !default;
+$border-radius-sm:            .25rem !default;
+$border-radius-md:            .25rem !default;
+$border-radius-lg:            .25rem !default;
+
+
+//input-btn 基礎樣式
+$input-btn-padding-y:         .625rem !default; //10px
+$input-btn-padding-x:         1rem !default;    //16px
+$input-btn-font-family:       null !default;
+
+
+$input-btn-padding-y-sm:      .625rem !default;
+$input-btn-padding-x-sm:      .5rem !default;
+$input-btn-font-size-sm:      $font-size-sm !default;
+
+$input-btn-padding-y-md:      .625rem !default;
+$input-btn-padding-x-md:      3rem !default;
+$input-btn-font-size-md:      $font-size-base !default;
+
+$input-btn-padding-y-lg:      .75rem !default;  //12px
+$input-btn-padding-x-lg:      3.25rem !default; //52px
+$input-btn-font-size-lg:      1rem !default;    //16px
+
+
+
+$btn-padding-y-md:            $input-btn-padding-y-md !default;
+$btn-padding-x-md:            $input-btn-padding-x-md !default;
+$btn-font-size-md:            $input-btn-font-size-md !default;
+
+
+$btn-border-radius-md:        $border-radius-md !default;
+
+
+//card 基礎樣式
+$card-spacer-y:                     0 !default;
+$card-spacer-x:                     0 !default;
+$card-title-spacer-y:               $spacer * .5 !default;
+$card-border-width:                 0 !default;
+$card-border-radius:                0 !default;

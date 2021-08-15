@@ -1,0 +1,7 @@
+.product{
+    padding: 44px 0;
+    @include media-breakpoint-up(sm){
+        padding-top: 80px;
+        padding-bottom: 52px;
+    }
+}

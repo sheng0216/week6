@@ -19,4 +19,16 @@ $utilities: (
         bold: $font-weight-bold,
       )
     ),
+    "font-size": (
+    property: font-size,
+    responsive: true,
+    class: fs,
+    values: (
+        base:$font-size-base,
+        sm:$font-size-sm,
+        md:$font-size-md,
+        lg:$font-size-lg,
+        xl:$font-size-xl,
+    ),
+  ),
  );
